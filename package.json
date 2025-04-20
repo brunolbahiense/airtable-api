@@ -1,0 +1,34 @@
+{
+  "name": "will-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch ./server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async-redis": "^2.0.0",
+    "axios": "^1.8.4",
+    "base64-stream": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.18.2",
+    "moment": "^2.24.0",
+    "node-mautic": "^1.2.7",
+    "pdfkit": "0.10.0",
+    "redis": "^4.7.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "@types/bun": "latest"
+  },
+  "private": true,
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
